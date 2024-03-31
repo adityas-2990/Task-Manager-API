@@ -1,0 +1,20 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "This is a Task Manager API. This does not include any front end, only backend implementation is performed",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
